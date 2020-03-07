@@ -14,7 +14,7 @@ body{
 }
 
 .section:nth-child(2){
-    background-color: black;
+    background: radial-gradient(ellipse at bottom, #77bde3 0%, #090a0f 100%);
 
 }
 
@@ -32,5 +32,6 @@ body{
     background-color:blue;
 
 }
+
 
 
