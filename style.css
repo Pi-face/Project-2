@@ -1,0 +1,22 @@
+body{
+
+}
+
+
+
+
+
+
+.section{
+    background-color: black;
+    color:white;
+    width: 0 auto;
+    height: 736px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section:nth-child(3){
+   background-color: darkgrey;
+}
