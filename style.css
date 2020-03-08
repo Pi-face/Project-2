@@ -15,14 +15,12 @@ body{
 
 .section:nth-child(2){
     background: radial-gradient(ellipse at bottom, #151b4a 0%, #000000 100%);
+    
 
 }
 
 .section:nth-child(3){
-    background-color:green;
-    display: grid;
-    grid-template-columns: (3, 1fr);
-    grid-template-rows: (2,1fr);
+    background-color:white;
     
 
 }
@@ -36,5 +34,78 @@ body{
     background-color:blue;
 
 }
+/* Project Gallery CSS */
 
+img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+  }
+  
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .project-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .project-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .project-titles {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgb(114, 219, 255, 0.5);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .project-titles {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .project-image img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .project-titles {
+      opacity: 1;
+    }
+    .project-image img {
+      filter: blur(2px);
+    }
+  }
 
+  .child-page-listing{
+      margin: auto 10%;
+  }
