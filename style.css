@@ -8,18 +8,22 @@ body{
     margin: 0 auto;
     text-align: center;
     color: white;
-    padding: 30%;
+    padding: 25%;
     
 
 }
 
 .section:nth-child(2){
-    background: radial-gradient(ellipse at bottom, #77bde3 0%, #090a0f 100%);
+    background: radial-gradient(ellipse at bottom, #151b4a 0%, #000000 100%);
 
 }
 
 .section:nth-child(3){
     background-color:green;
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (2,1fr);
+    
 
 }
 
@@ -32,6 +36,5 @@ body{
     background-color:blue;
 
 }
-
 
 
