@@ -50,21 +50,21 @@ function app(projects) {
   // the rest of your app goes here
 
 //   creates the gallery
-//   function createMyProjects(){
-//     for(let i =0; projects.length; i++){
-//         let $article = $(`
-//         <article id="3685" class="location-listing">
-//            <a class="project-titles" href="#">${projects.title}</a>
-//         <div class="project-image">
-//         <a href=${projects.url}>
-//              <img width="300" height="169" src=${projects.image} alt="startup matchmaker"></a>
-//         </div>
-//         </article>` )
+  function createMyProjects(){
+    for(let i =0; i < projects.length; i++){
+        let $article = $(`
+        <article id="3685" class="location-listing">
+           <a class="project-titles" href="#">${projects[i].title}</a>
+        <div class="project-image">
+        <a href=${projects[i].url}>
+             <img width="300" height="169" src=${projects[i].image} alt="startup matchmaker"></a>
+        </div>
+        </article>`)
 
-//         $('.grid-container').append($article)
-//     }
-//   }
-//   createMyProjects()
+        $('.grid-container').append($article)
+    }
+  }
+  createMyProjects()
 }
 
 // i'd like my array of projects to looks just like this...
