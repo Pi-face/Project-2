@@ -8,7 +8,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
+|Day 1| Gallery In Jquery| Completed
 |Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -19,6 +19,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+ 
+ A portfolio website showcasing all the projects done in class
 
 ## Google Sheet
 
@@ -53,14 +55,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Gallery
+- About
+- Contact
+- Hamburger Menu
+- Responsiveness
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Animation the First Div
+- Animate gallery showing up
+- Animate heading
+- Animate Contact form
 
 ## Functional Components
 
@@ -70,9 +76,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| About me | H | 3hrs| | |
+| Finishing Responsiveness | H | 3hrs|  |  |
+| Contact | H | 5hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
@@ -81,6 +87,23 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
+I took me a while but i finally used Jquery to create the board on my website
+
+function createMyProjects(){
+    for(let i =0; i < projects.length; i++){
+        let $article = $(`
+        <article id="3685" class="location-listing">
+           <a class="project-titles" href="#">${projects[i].title}</a>
+        <div class="project-image">
+        <a href=${projects[i].url}>
+             <img width="300" height="169" src=${projects[i].image} alt="startup matchmaker"></a>
+        </div>
+        </article>`)
+
+        $('.grid-container').append($article)
+    }
+  }
+  createMyProjects()
 ```
 function reverse(string) {
 	// here is the code to reverse a string of text
@@ -89,6 +112,10 @@ function reverse(string) {
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
+
+ - Error : Couldnt get the Jquery code to pull the keys from the object. 
+ - Resolution : didnt reference the object correctly "${projects[i].image}".
+
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
