@@ -31,7 +31,9 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 [https://www.figma.com/](https://www.figma.com/)
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
 
-
+[My Wireframe1](https://res.cloudinary.com/dbrdhogvw/image/upload/v1583780565/IMG_7780_rgnvpr.jpg)
+[My Wireframe2](https://res.cloudinary.com/dbrdhogvw/image/upload/v1583780566/IMG_7566_wt7cuq.jpg)
+[My Wireframe3](https://res.cloudinary.com/dbrdhogvw/image/upload/v1583780563/IMG_7521_ikff1i.jpg)
 
 ## Time/Priority Matrix 
 
