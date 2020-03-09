@@ -1,5 +1,7 @@
 body{
     margin: 0 auto;
+    font-family: sans-serif;
+    background: #f2f2f2;
 }
 
 
@@ -108,4 +110,13 @@ img {
 
   .child-page-listing{
       margin: auto 10%;
+  }
+  
+  .child-page-listing h2{
+      text-align: center;
+  }
+
+  .child-page-listing a{
+      text-decoration: none;
+      color: white;
   }
