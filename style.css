@@ -16,7 +16,7 @@ body{
 }
 
 .section:nth-child(2){
-    background: radial-gradient(ellipse at bottom, #151b4a 0%, #000000 100%);
+    background: radial-gradient(ellipse at bottom, #d2d7ff 0%, #0773a2 100%);;
     
 
 }
@@ -28,7 +28,7 @@ body{
 }
 
 .section:nth-child(4){
-    background-color:yellow;
+    background: radial-gradient(ellipse at bottom, #d2d7ff 0%, #0773a2 100%);
 
 }
 
@@ -114,6 +114,7 @@ img {
   
   .child-page-listing h2{
       text-align: center;
+      padding: 20px;
   }
 
   .child-page-listing a{

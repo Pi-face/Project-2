@@ -42,12 +42,12 @@ fetch(source)
         }
       })
       app(projects)
-  }) // this provides us access to the parse data
+  })
   .catch( err => console.log('err', err))
 
 function app(projects) {
   console.log('app - projects', projects)
-  // the rest of your app goes here
+
 
 //   creates the gallery
   function createMyProjects(){
@@ -67,26 +67,10 @@ function app(projects) {
   createMyProjects()
 }
 
-// i'd like my array of projects to looks just like this...
-// let projects = [
-//   {title: 'Startup Matchmaker', image: 'image url', description: "some desc", url: 'url to project'}
-// ]
 
 
 
 
-// CREATE MY PROJECTS GALLERY
 
-
-
-
- `<div class="grid-container">
-<article id="3685" class="location-listing">
-   <a class="project-titles" href="#">Startup Matchmaker</a>
-<div class="project-image">
-<a href="#">
-     <img width="300" height="169" src="https://res.cloudinary.com/dbrdhogvw/image/upload/v1583104281/coworking_nhfczg.jpg" alt="startup matchmaker"></a>
-</div>
-</article>` 
 
 
