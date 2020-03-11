@@ -78,7 +78,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| About me | H | 3hrs| | |
+| About me | H | 3hrs| 4hrs| 3hrs|
 | Finishing Responsiveness | H | 3hrs|  |  |
 | Contact | H | 5hrs|  |  |
 
