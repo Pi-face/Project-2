@@ -80,7 +80,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | About me | H | 3hrs| 4hrs| 3hrs|
 | Finishing Responsiveness | H | 3hrs|  |  |
-| Contact | H | 5hrs|  |  |
+| Contact | H | 5hrs| 3 | 3 |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
