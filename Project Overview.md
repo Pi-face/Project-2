@@ -79,8 +79,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | About me | H | 3hrs| 4hrs| 3hrs|
-| Finishing Responsiveness | H | 3hrs|  |  |
+| Finishing Responsiveness | H | 3hrs| 3 | 3 |
 | Contact | H | 5hrs| 3 | 3 |
+|Adding styling |M|5hrs|6hrs|4hrs|
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 

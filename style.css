@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     font-family: sans-serif;
-    background: #f2f2f2;
+    background: #1D1E1F;
     font-size: 20px;
 }
 
@@ -30,12 +30,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    width: 100%;
 
 }
 
 .section:nth-child(3){
-    background-color:white;
+    background-color:#1D1E1F;
     margin-top: 30vh;
     margin-bottom: 30vh;
     
@@ -43,18 +43,20 @@ body{
 }
 
 .section:nth-child(4){
-    background: #1E1E20;
+    background:  #1D1E1F;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30vh;
-    margin-bottom: 30vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding-top: 30vh;
+    padding-bottom: 20vh;
    
     
 
 }
 
 .section:nth-child(5){
-    background-color:blue;
+    background-color:#1D1E1F;
     margin-top: 30vh;
     margin-bottom: 30vh;
 
@@ -103,8 +105,8 @@ img {
     left: 0;
     opacity: 0;
     transition: opacity .5s;
-    background: rgb(236, 77, 191, 0.5);
-    color: white;
+    background: rgb(40, 140, 246, 0.3);
+    color: #1D1E1F;
     
     /* position the text in t’ middle*/
     display: flex;
@@ -114,10 +116,16 @@ img {
   
   .location-listing:hover .project-titles {
     opacity: 1;
+    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+    animation: neon3 1.5s ease-in-out infinite alternate;
   }
   
   .location-listing:hover .project-image img {
     filter: blur(2px);
+    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+    animation: neon3 1.5s ease-in-out infinite alternate;
   }
   
   
@@ -205,16 +213,16 @@ img {
 
 
 
-/* neon stylings on the page */
+/* neon styling on intro of page */
 
 #intro span{
   font-size: 1.5em;
-  color: #C984BD;
+  color:#fc00a8;
  
 }
 
 
-#intro span{
+#intro span:hover{
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
@@ -223,25 +231,144 @@ img {
 
 @keyframes neon2 {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fc00a8, 0 0 70px #fc00a8, 0 0 80px #fc00a8, 0 0 100px #fc00a8, 0 0 150px #fc00a8;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fc00a8, 0 0 35px #fc00a8, 0 0 40px #fc00a8, 0 0 50px #fc00a8, 0 0 75px #fc00a8;
   }
 }
-
-
-
-
-
 
 
 
 @-webkit-keyframes neon2 {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fc00a8, 0 0 70px #fc00a8, 0 0 80px #fc00a8, 0 0 100px #fc00a8, 0 0 150px #fc00a8;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fc00a8, 0 0 35px #fc00a8, 0 0 40px #fc00a8, 0 0 50px #fc00a8, 0 0 75px #fc00a8;
   }
 }
+
+@-moz-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fc00a8, 0 0 70px #fc00a8, 0 0 80px #fc00a8, 0 0 100px #fc00a8, 0 0 150px #fc00a8;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fc00a8, 0 0 35px #fc00a8, 0 0 40px #fc00a8, 0 0 50px #fc00a8, 0 0 75px #fc00a8;
+  }
+}
+
+
+
+/* Neon styling on the project page */
+
+.child-page-listing h2{
+  font-size: 1.5em;
+  color:#288CF6;
+ 
+}
+
+
+.child-page-listing h2:hover{
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #288CF6, 0 0 70px #288CF6, 0 0 80px #288CF6, 0 0 100px #288CF6, 0 0 150px #288CF6;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #288CF6, 0 0 35px #288CF6, 0 0 40px #288CF6, 0 0 50px #288CF6, 0 0 75px #288CF6;
+  }
+}
+
+
+
+
+@-webkit-keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #288CF6, 0 0 70px #288CF6, 0 0 80px #288CF6, 0 0 100px #288CF6, 0 0 150px #288CF6;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #288CF6, 0 0 35px #288CF6, 0 0 40px #288CF6, 0 0 50px #288CF6, 0 0 75px #288CF6;
+  }
+}
+
+
+/* Neon styling on the Contact Me page */
+
+#contact-me{
+  font-size: 1.5em;
+  color:#288CF6;
+  
+ 
+}
+
+#contact-me h2 {
+  margin-bottom: 10px;
+}
+
+
+#contact-me:hover{
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+
+/* Neon styling on the About Me page */
+
+
+#about-me {
+  font-size: 1.5em;
+  color:#fc00a8;
+ 
+}
+
+
+#about-me:hover{
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+
+/* CONTACT ME FORM STYLING */
+
+#contact-form{
+  background-color:#1D1E1E;
+  border: 5px solid #2477CC;  
+ 
+}
+
+
+#contact-form input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+#contact-form input[type=email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+
+/* Footer Styling */
+
+footer{
+  background-color: black;
+  padding-bottom: 20px;
+}
+

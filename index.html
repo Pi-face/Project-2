@@ -42,13 +42,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="">Portfolio<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href='#portfolio'>Portfolio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about-me">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#jump">Contact</a>
+                    <a class="nav-link" href="#contact-me">Contact</a>
                   </li>
                 <li class="nav-item">
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
@@ -66,14 +66,14 @@
   
   <div class="section">
     <div id="intro">
-      <h1>Hello my name is Juan and I am a <span>Software Engineer</span></h1>
+      <h1>Welcome, my name is Juan and I am a <span>Software Engineer</span></h1>
       </div>
    </div>
 </div>
 <!-- <div class="section"></div> -->
   <!-- beginning of the projects gallery -->
-  <div class="child-page-listing">
-        <h2>My Projects</h2>
+  <div id='portfolio' class="child-page-listing">
+        <h2>Ｐｒｏｊｅｃｔｓ　茨科ヿ</h2>
              <div class="grid-container">
     </div>
     <!-- end grid container -->
@@ -85,33 +85,41 @@
   <div class="about-me-info">
         
     
-      <h2>ABOUT ME</h2>
+      <h2 id='about-me'>【﻿ＡＢＯＵＴ　ＭＥ】</h2>
 
      <article>
-    <h3>Juan Guzman</h3>
     <p>
       Originally from Queens, NY, now located in Miami, FL. I tend to approach situations from an analytical perspective. Currently I'm attending the General Assembly Software Engineering Immersive course and I'm looking to continue to sharpen my skills after graduation.
 
       I approach each situation and enjoy the satisfaction of learning something if for nothing else than to improve past projects. 
       I look forward to hearing from you!</p>
+      <!-- profilepic -->
+      <img src="" alt="profile pic here">
+      <!-- socialmedia -->
+      <ul>
+        <li>codepen</li>
+        <li>linkedin</li>
+        <li>github</li>
+      </ul>
+      
+
     </article>
 
 
   </div>
 
-    <!-- <div id="about-me-card">
-     <img src="https://lh3.googleusercontent.com/-s1jnOa4g4iw/XlQh8bOwhLI/AAAAAAAAAAs/y6nJW1h1_pMRdlgTzTz9dLcXQfjUm4D8QCEwYBhgLMJWDn_MF/w139-h140-p/IMG_0004.JPG" alt="Profile Image">
-    </div> -->
+
 </div>
 
 
 <div class="section">
-  <form name="submit-to-google-sheet">
+  <h2 id='contact-me'>ＣＯＮＴＡＣＴ　ＭＥ　ポあ゛</h2>
+  <form id="contact-form" name="submit-to-google-sheet">
     <input name="email" type="email" placeholder="Email" required>
     <input name="firstName" type="text" placeholder="First Name">
     <input name="lastName" type="text" placeholder="Last Name">
-    <input name="title" type="text" placeholder="Title">
-    <input name="subject" type="text" placeholder="subject">
+    <input name="title" type="text" placeholder="subject">
+    <input name="subject" type="text" placeholder="about">
     <button type="submit" id="submit-button">Send</button>
   </form>
   
@@ -128,7 +136,7 @@
   </script>
 </div>
 <footer>
-  
+  <h2>Footer Goes here</h2>
 </footer>
 
 

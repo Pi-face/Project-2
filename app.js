@@ -69,8 +69,14 @@ function app(projects) {
 
 
 
+// Contact Form scripts
+
+$('#submit-button').click(function(){
+    alert('Thank you for submitting your info!')
+})
 
 
+//Test for nav bar highlight
 
 
 
