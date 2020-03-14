@@ -222,7 +222,7 @@ img {
 }
 
 
-#intro span:hover{
+#intro span{
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
@@ -269,7 +269,7 @@ img {
 }
 
 
-.child-page-listing h2:hover{
+.child-page-listing h2{
   -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
   -moz-animation: neon3 1.5s ease-in-out infinite alternate;
   animation: neon3 1.5s ease-in-out infinite alternate;
@@ -312,7 +312,7 @@ img {
 }
 
 
-#contact-me:hover{
+#contact-me{
   -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
   -moz-animation: neon3 1.5s ease-in-out infinite alternate;
   animation: neon3 1.5s ease-in-out infinite alternate;
@@ -328,7 +328,7 @@ img {
 }
 
 
-#about-me:hover{
+#about-me{
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
@@ -363,12 +363,23 @@ img {
   resize: vertical;
 }
 
+#profile-pic{
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+}
 
+#submit-button{
+  margin: 10px 30px;
+  padding: 10px 20px;
+}
 
 /* Footer Styling */
 
 footer{
   background-color: black;
   padding-bottom: 20px;
+  color: black;
 }
+
 

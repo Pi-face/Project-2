@@ -9,11 +9,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Gallery In Jquery| Completed
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
+|Day 6| Present | Complete
 
 
 ## Project Description
@@ -82,6 +82,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Finishing Responsiveness | H | 3hrs| 3 | 3 |
 | Contact | H | 5hrs| 3 | 3 |
 |Adding styling |M|5hrs|6hrs|4hrs|
+|Neon styling|L|4|5|4|
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
